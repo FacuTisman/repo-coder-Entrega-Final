@@ -1,0 +1,26 @@
+@import "style-index";
+
+body{
+    background-color: $color-pagina;
+    header{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        a{
+            @extend .links;
+        }
+    }
+    .flex-container{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        div{
+            background-color: beige;
+            margin: 10px;
+            padding: 60px;
+            border: 2px solid black;
+        }
+    }
+}
+
+

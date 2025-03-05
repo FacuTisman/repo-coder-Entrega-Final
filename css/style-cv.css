@@ -1,0 +1,29 @@
+body{
+    background-color: burlywood;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+}
+
+.flex-item-forms{
+    flex-grow:2;
+}
+
+.flex-item-nav{
+    flex-grow: 1;
+    font-size: larger;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.links{
+    text-decoration: none;
+}
+.banner img{
+    width: 1250px;
+    height: 450px;
+}

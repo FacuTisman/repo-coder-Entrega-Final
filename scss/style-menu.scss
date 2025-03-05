@@ -1,0 +1,37 @@
+@import "style-index";
+@import "style-franquicias";
+
+body{
+    background-color:$color-pagina;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    .grid-item{
+        padding: 50px;
+    }
+    .links{
+        @extend .links;
+    }
+}
+
+.flex-container{
+    @extend .flex-container; // extiendo todo el flex container que tmb va a afectar a los divs
+}
+
+
+/* Media query para computadoras de escritorio */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Media query para tabletas */
+@media (min-width: 600px) {
+    body {
+        padding: 20px;
+    }
+}
