@@ -8,5 +8,21 @@
 
 // Then add additional custom code here
 
+/* Media query para computadoras de escritorio */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Media query para tabletas */
+@media (min-width: 600px) {
+    body {
+        padding: 20px;
+    }
+}
+
+
 
 

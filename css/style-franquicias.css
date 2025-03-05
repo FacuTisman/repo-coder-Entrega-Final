@@ -31,6 +31,9 @@ header .links, body header a {
   font-size: 30px;
   border: 1px solid black;
 }
+.contenedor-grid div:hover {
+  transform: scale(1.2);
+}
 .contenedor-grid div img {
   width: 200px;
 }
@@ -74,6 +77,20 @@ body .flex-container div {
   margin: 10px;
   padding: 60px;
   border: 2px solid black;
+}
+
+/* Media query para computadoras de escritorio */
+@media (min-width: 1024px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+/* Media query para tabletas */
+@media (min-width: 600px) {
+  body {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=style-franquicias.css.map */
